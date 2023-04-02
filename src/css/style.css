@@ -1,0 +1,63 @@
+:root {
+    --text-color: hsl(193, 38%, 86%);
+    --advice-dice-color: hsl(150, 100%, 66%);
+    --advice-card-color: hsl(217, 19%, 24%);
+    --background-color: hsl(218, 23%, 16%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:wght@700&display=swap');
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Manrope', 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+main {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px;
+    align-items: center;
+}
+
+.container .id-conselho {
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.container .conselho {
+    text-align: center;
+    font-size: 23px;
+    padding: 23px;
+    color: var(--text-color);
+}
+
+.container .botao {
+    background-color: var(--advice-dice-color);
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    transform: translateY(50%);
+}
+
+.container .botao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
