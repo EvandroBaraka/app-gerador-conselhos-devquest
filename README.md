@@ -30,7 +30,7 @@ Exercício inspirado no desafio [Advice generator app challenge on Frontend Ment
 ### Links
 
 - URL Solução: [Repositório Github](https://github.com/EvandroBaraka/app-gerador-conselhos-devquest)
-- URL do site: [Site Profile Card](https://evandrobaraka.github.io/app-gerador-conselhos-devquest/)
+- URL do site: [Site Gerador de conselhos](https://evandrobaraka.github.io/app-gerador-conselhos-devquest/)
 
 ## Meu processo
 
