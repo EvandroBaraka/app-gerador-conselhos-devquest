@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -27,17 +27,19 @@
 <body>
   <main>
     <div class="container">
-      <h2 class="id-conselho"> Conselho # 25<!-- Advice ID goes here --></h2>
+      <h2 class="id-conselho" id="id-conselho">Advice #0</h2>
 
-      <p class="conselho"> "Tudo que você quiser, você pode. Basta querer."</p>
+      <p class="conselho" id="conselho">"Advice"</p>
       <picture>
         <source class="divisor" srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
         <img src="./src/images/pattern-divider-desktop.svg" alt="Pattern divider">
     </picture>
-      <button class="botao"><img src="./src/images/icon-dice.svg"></button>
+      <button class="botao" id="botao"><img src="./src/images/icon-dice.svg"></button>
     </div>
     <br>
   </main>
+
+  <script src="./src/js/index.js"></script>
 </body>
 
 </html>
