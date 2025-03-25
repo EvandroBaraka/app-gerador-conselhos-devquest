@@ -1,6 +1,6 @@
 # Curso Dev Quest - Exercício Profile card
 
-Exercício inspirado no desafio [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). O Exercício serve para botar em prática o que foi ensinado sobre flexbox. E futuramente adicionar javascript.
+Exercício inspirado no desafio [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). O Exercício servia inicialmente para botar em prática o que foi ensinado sobre flexbox. E posteriormente foi adicionada a funcionalidade javascript de gerar novos conselhos.
 
 
 ## Tabela de conteúdos
@@ -23,6 +23,8 @@ Exercício inspirado no desafio [Advice generator app challenge on Frontend Ment
 
 - Construir o projeto de acordo com o design fornecido usando HTML e CSS.
 
+- Posteriormente foi adicionada a funcionalidade javascript.
+
 ### Screenshots
 
 ![](./design/screenshot-resultado.png)
@@ -39,10 +41,11 @@ Exercício inspirado no desafio [Advice generator app challenge on Frontend Ment
 - HTML5
 - CSS
 - Flexbox
+- JavaScript
 
 ### O que aprendi
 
-Usei o projeto para treinar o que foi ensinado nas aulas de flexbox do curso. Como as propriedades justify-content, align-items, flex, etc.
+Usei o projeto para treinar o que foi ensinado nas aulas de flexbox do curso. Como as propriedades justify-content, align-items, flex, etc. Após isso usei os conhecimentos de javascript de consulta a APIs, e manipulação de DOM.
 
 ### Recursos úteis
 
